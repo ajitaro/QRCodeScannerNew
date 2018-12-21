@@ -6,4 +6,6 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="full_stack_developer">Full Stack Developer</string>
+    <string name="ux_and_ui_designer">UX and UI Designer</string>
 </resources>
