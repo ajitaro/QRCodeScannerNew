@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">QRCodeScannerNew</string>
+    <string name="text_home">Home</string>
+    <string name="text_scan">Scan</string>
+    <string name="text_information">Information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
