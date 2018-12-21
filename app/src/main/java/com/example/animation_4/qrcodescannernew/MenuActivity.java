@@ -1,23 +1,8 @@
 package com.example.animation_4.qrcodescannernew;
 
-import android.app.ActionBar;
-import android.app.Activity;
 import android.app.TabActivity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.ColorRes;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.Button;
 import android.widget.TabHost;
 
 public class MenuActivity extends TabActivity {
@@ -33,7 +18,7 @@ public class MenuActivity extends TabActivity {
 
         spec = tabHost.newTabSpec("Home");
         spec.setIndicator("Home");
-        intent = new Intent (this, DevPage.class);
+        intent = new Intent (this, HomeActivity.class);
         spec.setContent(intent);
         tabHost.addTab(spec);
 
